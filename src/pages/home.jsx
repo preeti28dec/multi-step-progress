@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { MdDone } from 'react-icons/md';
+import ProgressBar from "./progressBar";
 import GetProject from "./getProject";
 function Home() {
   return (
@@ -38,8 +39,11 @@ function Home() {
       </div>
 
       {/* { get a project} */}
-      <GetProject/>
+      <ProgressBar/>
       
+
+      {/* Image section */}
+      <GetProject/>
     </Root>
   );
 }
